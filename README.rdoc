@@ -1,0 +1,31 @@
+{<img src="https://secure.travis-ci.org/robinbortlik/db_explorer.png?branch=master" alt="Build Status" />}[http://travis-ci.org/robinbortlik/db_explorer]
+
+= DB Explorer
+
+Simple solution for MySQL, PostgreSQL and Sqlite.
+
+== How it can help you?
+
+Do you know that situation, when you would like to check something in your development or production DB and you don't want to run console.
+Thats the right time to use DB Explorer :)
+
+I know, there are similar solutions like phpMyAdmin or Adminer. But if you don't need all that functionality that they are offering you, then you can try simpler solution.
+
+== Installation
+
+* pull project
+    git clone https://robinbortlik@github.com/robinbortlik/db_explorer.git
+* setup config/database.yml
+* migrate db
+    bundle exec rake db:create
+    bundle exec rake db:migrate
+* start project :)
+    rails s
+  
+== Screenshots
+ 
+* https://s3.amazonaws.com/robinbortlik_github/DbExplorer.png 
+* https://s3.amazonaws.com/robinbortlik_github/DbExplorer2.png  
+
+
+This project rocks and uses MIT-LICENSE.

@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    errors:
+      models:
+        database_connection:
+          attributes:
+            database:
+              configuration_not_working: Not able to connect to this database
+              not_exist: File with database does not exist. Be sure you specify right path
