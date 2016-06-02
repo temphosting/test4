@@ -22,6 +22,9 @@ gem "country_select"
 gem "turbolinks"
 gem 'nprogress-rails'
 
+gem 'rails_12factor'
+
+
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
